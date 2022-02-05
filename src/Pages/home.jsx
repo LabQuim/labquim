@@ -1,11 +1,16 @@
 import React from 'react';
-import Navbar from 'Components/Navbar';
+import Navbar from 'Components/Navbar'
+import Banner from 'Components/Banner';
 
 const home = () => {
   return (
-  <div>
+  <div className='w-full overflow-x-hidden'>
       <Navbar/>
-      <p>contenido de la pagina home</p>
+      <Banner
+                title='titulo de servicios del laboratorio'
+                text='que se va a ofrecer'
+                // image={}
+            />
   </div>);
 };
 
