@@ -5,7 +5,7 @@ import ContactButton from 'Components/ContactButton';
 
 const Banner = ( { title, text, image } ) => {
     return (
-        <div>
+        <div className='text-center text-4xl m-10'>
             <div >
                 <div>
                     <div>
