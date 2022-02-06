@@ -17,7 +17,7 @@ const Banner = ( { title, text, image } ) => {
                         
 
                     <div className='w-full text-center justify-center p-8'>
-                        <img className='w-200 h-200 rounded-lg justify-center' src={image} alt="imagen en el banner" /> 
+                        <img className='w-200 h-200 rounded-lg text-center m-auto drop-shadow-xl' src={image} alt="imagen en el banner" /> 
                     </div>
                     <div className=''>
                             <ContactButton text='Contáctanos' />
