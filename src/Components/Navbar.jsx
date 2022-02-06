@@ -9,7 +9,7 @@ const Navbar = () => {
             <div className='w-full h-full p-5 mt-10'> 
                 Aqui va el logo
             </div>
-            <div className='bg-green-400 flex flex-col text-center text-4xl w-full'>
+            <div className='bg-green-400 rounded-lg flex flex-col text-center text-4xl w-full'>
                 <NavbarLinks/>
             </div>
 

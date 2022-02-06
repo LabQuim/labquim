@@ -5,7 +5,7 @@ import Agronomy from 'Media/Agronomy.jpg';
 
 const home = () => {
   return (
-  <div className='w-full overflow-x-hidden overflow-y-hidden'>
+  <div className='w-full overflow-x-hidden overflow-y-hidden p-3 rounded-lg'>
       <Navbar/>
       <Banner
                 title='Rapi-Test'

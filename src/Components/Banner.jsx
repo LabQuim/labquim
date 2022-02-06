@@ -5,7 +5,7 @@ import ContactButton from 'Components/ContactButton';
 
 const Banner = ( { title, text, image } ) => {
     return (
-        <div className='text-center w-full  text-4xl mt-10 bg-green-200'>
+        <div className='text-center w-full  text-4xl mt-10 bg-green-200 rounded-lg'>
             
                 
                     <div className='pt-8 m-auto'>
@@ -16,10 +16,10 @@ const Banner = ( { title, text, image } ) => {
                     </div>
                         
 
-                    <div className='w-auto text-center mt-5'>
-                        <img className=' w-62 h-auto  m-auto ' src={image} alt="imagen en el banner" /> 
+                    <div className='w-full text-center justify-center p-8'>
+                        <img className='w-200 h-200 rounded-lg justify-center' src={image} alt="imagen en el banner" /> 
                     </div>
-                    <div className='mt-7'>
+                    <div className=''>
                             <ContactButton text='Contáctanos' />
                         </div>
 
