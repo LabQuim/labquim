@@ -11,6 +11,7 @@ const home = () => {
                 text='que se va a ofrecer'
                 // image={}
             />
+            <h3 className="text-center font-bold text-4xl">Hola!</h3>
   </div>);
 };
 

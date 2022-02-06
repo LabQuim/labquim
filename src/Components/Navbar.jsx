@@ -4,12 +4,12 @@ import ContactButton from '../Components/ContactButton'
 
 const Navbar = () => {
     return (
-        <div className='bg-green-500 flex flex-row items-center text-center sm:bg-blue-300'>
+        <div className='bg-green-500 flex flex-row items-center text-center justify-evenly text-4xl md:text-5xl md:flex md:flex-col md:bg-blue-300'>
 
             <div >
                 Aqui va el logo
             </div>
-            <div className='flex flex-row'>
+            <div className='flex flex-col md:flex md:flex-row'>
                 <NavbarLinks/>
             </div>
 
@@ -28,7 +28,7 @@ const Navbar = () => {
 
 const NavbarLinks = () =>{
     return(
-        <ul className='flex flex-row space-x-5'>
+        <ul className='flex flex-row space-x-5 sm:flex sm:flex-col'>
             <NavbarRoute to='/planes' title='Planes' />
             <NavbarRoute to='/nosotros' title='Nosotros' />
             <NavbarRoute to='/blog' title='Blog' />
