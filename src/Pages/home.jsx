@@ -7,8 +7,8 @@ const home = () => {
   <div className='w-full overflow-x-hidden'>
       <Navbar/>
       <Banner
-                title='titulo de servicios del laboratorio'
-                text='que se va a ofrecer'
+                title='TITULO'
+                text='Servicios que se van a ofrecer por que cuando yo ponga el resto del texto que tengo destinado para poner aqui pues se va a ver asi como lo estoy viendo en este momento para despues poder interactuar desde el telefono'
                 // image={}
             />
             <h3 className="text-center font-bold text-4xl">Hola!</h3>

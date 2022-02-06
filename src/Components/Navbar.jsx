@@ -6,7 +6,7 @@ const Navbar = () => {
     return (
         <div className='text-center text-4xl'>
             
-            <div className='w-full h-full p-5'> 
+            <div className='w-full h-full p-5 mt-10'> 
                 Aqui va el logo
             </div>
             <div className='bg-green-400 flex flex-col text-center text-4xl w-full'>
@@ -28,7 +28,7 @@ const Navbar = () => {
 
 const NavbarLinks = () =>{
     return(
-        <ul className='flex flex-col space-y-10 text-center items-center p-5'>
+        <ul className='flex flex-col space-y-16 text-center items-center p-8'>
             <NavbarRoute to='/planes' title='Planes' />
             <NavbarRoute to='/nosotros' title='Nosotros' />
             <NavbarRoute to='/blog' title='Blog' />
