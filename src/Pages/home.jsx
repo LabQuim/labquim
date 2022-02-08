@@ -15,7 +15,7 @@ const home = () => {
                 '
                 image={Agronomy}
             />
-            <h3 className="text-center font-bold text-4xl mt-6">Beneficios</h3>
+            <h3 className="text-center font-bold text-4xl mt-6">Beneficios: </h3>
             <div className='flex flex-row justify-center space-x-12 mt-16 h-full '>
 
                                 <div className='bg-white rounded-xl w-80 hover:scale-110 transition-transform mb-10' >
