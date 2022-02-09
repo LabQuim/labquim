@@ -1,31 +1,17 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom';
 // import ContactButton from 'Components/ContactButton'
-import Logo from 'Media/logom.png'
+
 
 const Navbar = () => {
     return (
-        <div className='text-center text-4xl'>
+        <div className='text-center sm:text-4xl'>
             
-            <div className='w-auto h-auto m-auto '> 
-                <img className='w-2/4 h-2/5 m-auto text-center' src={Logo} alt="Logo Laboratorio" />
-            </div>
-            <div className='w-2/4 h-0.5 p-1 m-auto text-center'>
-                <hr className='justify-center w-full p-1 bg-gradient-to-r from-green-700 to-orange-600'/>
-            </div>
-
-            <div className=' bg-gradient-to-b from-green-700 to-green-300 p-2 rounded-lg flex flex-col sm:flex-row text-center text-4xl mt-2'>
-                
+            <div className=' bg-gradient-to-b from-green-700 to-green-300 p-2 rounded-lg flex flex-col sm:justify-evenly sm:flex-row text-center text-xl sm:text-4xl mt-2'>
                 <NavbarLinks/>
-            </div>
-
-            {/*<div >
-                <div  >
-                    <ContactButton text='Contáctanos' />
-                </div>
-            </div>*/}
-                
+            </div>                
         </div>
+                
             
 
             
@@ -34,7 +20,7 @@ const Navbar = () => {
 
 const NavbarLinks = () =>{
     return(
-        <ul className='flex flex-col space-y-16 text-center w-auto h-30 sm:flex sm:flex-row sm:items-center sm:text-center sm:space-x-10'>
+        <ul className='flex flex-col space-y-6 p-3 text-center w-auto h-30 sm:flex sm:flex-row sm:align-center sm:text-center sm:space-x-10'>
             <NavbarRoute to='/planes' title='Planes' />
             <NavbarRoute to='/nosotros' title='Nosotros' />
             <NavbarRoute to='/blog' title='Blog' />
@@ -48,7 +34,7 @@ const NavbarLinks = () =>{
 
 const NavbarRoute = ({to, title, icon})=>{
     return(
-        <li>
+        <li className='sm:text-center sm:align-center'>
             <NavLink
                 to={to}
                 className={({ isActive }) =>
@@ -58,8 +44,7 @@ const NavbarRoute = ({to, title, icon})=>{
                 }
             >
                 <div >
-                    <i className={icon} />
-                    <span >{title}</span>
+                    <span className='sm:text-center sm:align-center' >{title}</span>
                 </div>
             </NavLink>
         </li>

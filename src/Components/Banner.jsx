@@ -15,13 +15,13 @@ const Banner = ( { title, text, image } ) => {
                         </h3>
                     </div>
                     <div className='w-full h-full text-center justify-center p-8'>
-                        <img className='w-200 h-200 rounded-lg text-center mt-12 drop-shadow-xl ' src={image} alt="imagen en el banner" /> 
+                        <img className='w-full h-full sm:w-200 sm:h-200 rounded-lg text-center mt-12 drop-shadow-xl ' src={image} alt="imagen en el banner" /> 
                     </div>
                 </div>
                         
                     
 
-                    <div className=''>
+                    <div className='p-2'>
                             <ContactButton text='Contáctanos' />
                         </div>
 

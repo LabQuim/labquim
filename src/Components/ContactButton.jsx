@@ -3,7 +3,7 @@ import React from 'react'
 const ContactButton = ({ text }) => {
     return (
         
-            <button  className='text-center space-y-5 text-white align-top font-bold m-6 border-none rounded-lg h-10 w-3/4 sm:h-20 p-5 bg-green-800 hover:scale-110 transition-transform ' >
+            <button  className='text-center m-auto text-lg sm:text-3xl text-white align-center sm:align-center font-bold border-none rounded-lg h-10 w-3/4 sm:h-20 sm:w-80 bg-green-800 hover:scale-110 transition-transform ' >
                 {text}
             </button>
         
