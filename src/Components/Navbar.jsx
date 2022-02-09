@@ -14,7 +14,7 @@ const Navbar = () => {
                 <hr className='justify-center w-full p-1 bg-gradient-to-r from-green-700 to-orange-600'/>
             </div>
 
-            <div className='bg-gradient-to-b from-green-700 to-green-300 rounded-lg flex flex-col text-center text-4xl w-full mt-2'>
+            <div className=' bg-gradient-to-b from-green-700 to-green-300 p-2 rounded-lg flex flex-col sm:flex-row text-center text-4xl mt-2'>
                 
                 <NavbarLinks/>
             </div>
@@ -34,7 +34,7 @@ const Navbar = () => {
 
 const NavbarLinks = () =>{
     return(
-        <ul className='flex flex-col sm:flex sm:flex-row space-y-16 text-center items-center p-8 '>
+        <ul className='flex flex-col space-y-16 text-center w-auto h-30 sm:flex sm:flex-row sm:items-center sm:text-center sm:space-x-10'>
             <NavbarRoute to='/planes' title='Planes' />
             <NavbarRoute to='/nosotros' title='Nosotros' />
             <NavbarRoute to='/blog' title='Blog' />
