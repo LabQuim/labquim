@@ -34,7 +34,7 @@ const Navbar = () => {
 
 const NavbarLinks = () =>{
     return(
-        <ul className='flex flex-col space-y-16 text-center items-center p-8 sm:grid-flow-row'>
+        <ul className='flex flex-col sm:flex sm:flex-row space-y-16 text-center items-center p-8 '>
             <NavbarRoute to='/planes' title='Planes' />
             <NavbarRoute to='/nosotros' title='Nosotros' />
             <NavbarRoute to='/blog' title='Blog' />

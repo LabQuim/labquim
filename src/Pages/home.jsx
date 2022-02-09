@@ -8,15 +8,21 @@ const home = () => {
   return (
   <div className='w-full overflow-x-hidden overflow-y-hidden p-3 rounded-lg'>
       <Navbar/>
+
+      <div class="max-w-md p-4 mx-auto mt-4 bg-gray-200 sm:shadow-md sm::rounded-md sm:bg-gray-100 sm:p-6 md:bg-green-100">
+  <h2 class="text-lg font-semibold text-center text-blue-500 sm:text-xl">Me adapto a todo</h2>
+  <p class="mt-3 text-gray-600">Esta caja es adaptable. Diseño primero para las dimensiones pequeñas y voy aumentando para las grandes.</p>
+</div>
+
       <Banner
-                title='Rapi-Test'
+                title='Análisis preciso, confiable y rápido'
                 text='Debido a las condiciones actuales de la pandemia, ofrecemos el servicio de test rapidos 
                 para que usted mismo pueda realizar desde su empresa el test de analisis de suelos
                 '
                 image={Agronomy}
             />
             <h3 className="text-center font-bold text-4xl mt-6">Beneficios: </h3>
-            <div className='flex flex-row justify-center space-x-12 mt-16 h-full '>
+            <div className='flex flex-col sm:flex-row justify-center space-x-12 mt-16 h-full '>
 
                                 <div className='bg-white rounded-xl w-80 hover:scale-110 transition-transform mb-10' >
                                     <div className='flex flex-col col-span-3 '>

@@ -7,10 +7,10 @@ const Banner = ( { title, text, image } ) => {
     return (
         <div className='text-center w-full  text-4xl mt-10 bg-green-200 rounded-lg'>
             
-                <div className='flex flex-row text-center'>
+                <div className='flex flex-col text-center sm:flex-row '>
                     <div className=' m-auto'>
                         <h1 className='font-bold w-full p-5 px-2'>{title}</h1>
-                        <h3 className='w-full text-center mr-6'>
+                        <h3 className=''>
                             {text}
                         </h3>
                     </div>

@@ -10,18 +10,19 @@ const Footer = () => {
             <div className='w-auto h-auto m-auto text-left'> 
                 <img className='w-3/5 h-3/5 ml-5 text-center' src={Logo2} alt="Logo Laboratorio" />
             </div>
-                <div className=''>
-                    <NavbarLinks/>
-                </div>
-                <div >
-                    <ContactButton text='Contáctanos' />
-                </div>
+            <div className='text-left'>
+                <NavbarLinks/>
+            </div>
+            </div>
+            <div >
+                <ContactButton text='Contáctanos' />
+            </div>
+        </div>
+                
 
                 
                             
                     
-            </div>
-        </div>
 
         
     )
@@ -29,7 +30,7 @@ const Footer = () => {
 
 const NavbarLinks = () =>{
     return(
-        <ul className='flex flex-nowrap auto-rows-auto justify-items-center content-between p-5 self-auto text-10xl  '>
+        <ul className='flex flex-nowrap auto-rows-auto justify-items-center content-between pt-5 self-auto text-10xl  '>
             <NavbarRoute to='/planes' title='Planes' />
             <NavbarRoute to='/nosotros' title='Nosotros' />
             <NavbarRoute to='/blog' title='Blog' />
