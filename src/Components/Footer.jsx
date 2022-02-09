@@ -5,7 +5,7 @@ import Logo2 from 'Media/logomblanco.png';
 
 const Footer = () => {
     return (
-        <div className=' bg-gray-600 w-full text-center h-auto rounded-md'>
+        <div className=' bg-gray-600 w-full text-center h-auto rounded-md mt-5'>
             <div className='flex flex-col w-full sm:flex-row '>
                 <div className='w-fit h-fit m-auto '> 
                     <img className='w-30 h-20 ml-5 text-left sm:w-36 sm:h-20 mt-2' src={Logo2} alt="Logo Laboratorio" />

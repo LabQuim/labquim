@@ -9,13 +9,13 @@ const Banner = ( { title, text, image } ) => {
             
                 <div className='flex flex-col text-center sm:flex-row '>
                     <div className=' m-auto'>
-                        <h1 className='font-bold w-full p-5 px-2'>{title}</h1>
-                        <h3 className=''>
+                        <h1 className='text-lg sm:text-5xl font-bold w-full p-5 px-3'>{title}</h1>
+                        <h3 className='text-lg sm:text-4xl p-5 px-3'>
                             {text}
                         </h3>
                     </div>
-                    <div className='w-full h-full text-center justify-center p-8'>
-                        <img className='w-full h-full sm:w-200 sm:h-200 rounded-lg text-center mt-12 drop-shadow-xl ' src={image} alt="imagen en el banner" /> 
+                    <div className='w-full h-full text-center justify-center p-2 sm:p-8'>
+                        <img className='w-full h-full sm:w-200 sm:h-200 rounded-lg text-center sm:mt-12 drop-shadow-xl ' src={image} alt="imagen en el banner" /> 
                     </div>
                 </div>
                         

@@ -23,13 +23,13 @@ const home = () => {
                 image={Agronomy}
             />
             <h3 className="text-center font-bold text-4xl mt-6">Beneficios: </h3>
-            <div className='flex flex-col sm:flex-row justify-center text-center sm:space-x-12 sm:mt-8 h-full '>
+            <div className='flex flex-col sm:flex-row justify-center text-center space-y-2 sm:space-x-12 sm:mt-8 sm:w-full h-full '>
 
-                                <div className='bg-white rounded-xl w-fit hover:scale-110 transition-transform mb-10' >
-                                    <div className='flex flex-col col-span-3 '>
+                                <div className='bg-gray-200 rounded-xl h-40 w-fit hover:scale-110 transition-transform' >
+                                    <div className='flex flex-col '>
                                         <div>
                                             {/* <img src={} alt='imagen de movil' className='p-7'></img> */}
-                                            <div className='text-center mb-6 font-bold text-2xl p-5'>
+                                            <div className='text-center mb-6 font-bold text-2xl p-2 w-fit h-fit'>
                                                 <br />
                                                 Evita desplazamientos innecesarios
                                                 <br />
@@ -38,11 +38,11 @@ const home = () => {
                                     </div>
                                 </div>
 
-                                <div className='bg-white rounded-xl w-fit hover:scale-110 transition-transform mb-10' >
-                                    <div className='flex flex-col col-span-3 '>
+                                <div className='bg-gray-200 rounded-xl h-40 w-fit hover:scale-110 transition-transform' >
+                                    <div className='flex flex-col '>
                                         <div>
                                             {/* <img src={} alt='imagen de movil' className='p-7'></img> */}
-                                            <div className='text-center mb-6 font-bold text-2xl p-5'>
+                                            <div className='text-center mb-6 font-bold text-2xl p-2'>
                                                 <br />
                                                 Tiempos de análisis reduicidos
                                                 <br />
@@ -51,11 +51,11 @@ const home = () => {
                                     </div>
                                 </div>
 
-                                <div className='bg-white rounded-xl w-fit hover:scale-110 transition-transform mb-10' >
-                                    <div className='flex flex-col col-span-3 '>
+                                <div className='bg-gray-200 rounded-xl h-40 w-fit hover:scale-110 transition-transform' >
+                                    <div className='flex flex-col '>
                                         <div>
                                             {/* <img src={} alt='imagen de movil' className='p-7'></img> */}
-                                            <div className='text-center mb-6 font-bold text-2xl p-5'>
+                                            <div className='text-center mb-6 font-bold text-2xl p-2'>
                                                 <br />
                                                 Se entrega manual de instrucciones para la toma de muestras y posterior análisis
                                                 <br />
@@ -64,11 +64,11 @@ const home = () => {
                                     </div>
                                 </div>
 
-                                <div className='bg-white rounded-xl w-fit hover:scale-110 transition-transform mb-10' >
-                                    <div className='flex flex-col col-span-3 '>
+                                <div className='bg-gray-200 rounded-xl  h-40 w-fit hover:scale-110 transition-transform' >
+                                    <div className='flex flex-col '>
                                         <div>
                                             {/* <img src={} alt='imagen de movil' className='p-7'></img> */}
-                                            <div className='text-center mb-6 font-bold text-2xl p-5'>
+                                            <div className='text-center mb-6 font-bold text-2xl p-2'>
                                                 <br />
                                                     Incluye: kit con instrumentos y material necesario para el análisis e interpretación de resultados
                                                 <br />
