@@ -14,8 +14,8 @@ const NavbarLinks = () => {
   return (
     <ul className="space-y-3 flex flex-col  sm:flex-row sm:text-center  sm:justify-evenly sm:h-full sm:items-center sm:w-auto sm:-space-y-1  sm:m-auto ">
       <NavbarRoute to="/planes" title="Planes" />
-      <NavbarRoute to="/nosotros" title="Nosotros" />
-      <NavbarRoute to="/blog" title="Blog" />
+      <NavbarRoute to="/Nosotros" title="Nosotros" />
+      <NavbarRoute to="/Blog" title="Blog" />
     </ul>
   );
 };
@@ -27,7 +27,7 @@ const NavbarRoute = ({ to, title, icon }) => {
         to={to}
         className={({ isActive }) =>
           isActive
-            ? " navbar-route border-t-2  border-b-2 font-extrabold border-green text-blue-400 sm:text-center"
+            ? " navbar-route border-t-2  border-b-2 font-extrabold border-green text-green-900 sm:text-center"
             : " navbar-route font-bold  text-white hover:text-orange-200 hover:underline sm:text-center sm:justify-center sm:w-auto"
         }
       >

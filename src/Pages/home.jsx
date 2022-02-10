@@ -10,7 +10,7 @@ import Time from 'Media/time.png';
 import Book from 'Media/book.png';
 import Chemic from 'Media/chemic.png';
 
-const home = () => {
+const Home = () => {
   return (
   <div className='flex flex-col w-full overflow-x-hidden overflow-y-hidden p-3 rounded-lg'>
       <div className='w-auto h-auto m-auto '> 
@@ -52,4 +52,4 @@ const home = () => {
   </div>);
 };
 
-export default home;
+export default Home;
