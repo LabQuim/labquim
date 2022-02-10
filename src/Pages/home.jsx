@@ -12,7 +12,7 @@ import Chemic from 'Media/chemic.png';
 
 const home = () => {
   return (
-  <div className='w-full overflow-x-hidden overflow-y-hidden p-3 rounded-lg'>
+  <div className='flex flex-col w-full overflow-x-hidden overflow-y-hidden p-3 rounded-lg'>
       <div className='w-auto h-auto m-auto '> 
                 <img className='w-2/4 h-2/5 m-auto text-center' src={Logo} alt="Logo Laboratorio" />
             </div>
@@ -45,7 +45,7 @@ const home = () => {
 
                                 <Infocard
                                     image={Chemic}
-                                    text= 'Kit con instrumentos y material necesario para el análisis e interpretación de resultados' />
+                                    text= 'Instrumentos y material necesario para el análisis e interpretación de resultados' />
 
                     </div>
                     <Footer/>

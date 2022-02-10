@@ -28,7 +28,7 @@ const NavbarRoute = ({ to, title, icon }) => {
         className={({ isActive }) =>
           isActive
             ? " navbar-route border-t-2  border-b-2 font-extrabold border-green text-blue-400 sm:text-center"
-            : " navbar-route font-bold  text-white hover:text-black hover:underline sm:text-center sm:justify-center sm:w-auto"
+            : " navbar-route font-bold  text-white hover:text-orange-200 hover:underline sm:text-center sm:justify-center sm:w-auto"
         }
       >
         <span className="text-center sm:text-center">
