@@ -3,17 +3,35 @@ import React from 'react'
 import { NavLink } from 'react-router-dom'
 import Logo2 from 'Media/logomblanco.png';
 
+
+
+
 const Footer = () => {
     return (
-        <div className=' bg-gray-600 w-full text-center h-auto rounded-md mt-5'>
-            <div className='flex flex-col w-full sm:flex-row '>
-                <div className='w-fit h-fit m-auto '> 
-                    <img className='w-30 h-20 ml-5 text-left sm:w-36 sm:h-20 mt-2' src={Logo2} alt="Logo Laboratorio" />
+        <div className=' bg-gray-600 w-full text-center h-auto rounded-md mt-5 sm:flex sm:flex-row sm:justify-evenly'>
+            
+
+                <div className='Logo w-auto h-fit justify-center  sm:justify-start'> 
+                    <img className='w-30 h-20 mt-2 m-auto p-1 text-center sm:w-39 sm:h-28 ' src={Logo2} alt="Logo Laboratorio" />
                 </div>
-                <div className='text-center'>
+
+                <div className='Links text-center sm:justify-evenly sm:w-89'>
                     <NavbarLinks/>
                 </div>
-            </div>
+
+                <br />
+
+                <div className='Info text-white '>            
+                    <p><i class="fa-brands fa-whatsapp"></i> WhatsApp:</p>
+                    <p>3xxxxxxxx</p>
+                    <br />
+                    
+                    <p><i class="fa-solid fa-square-envelope"></i> Email: </p>
+                    <p>xxxx@gmail.com</p>
+                    <br /> 
+                </div>
+                
+            
             
         </div>
                 
