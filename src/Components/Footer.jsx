@@ -15,13 +15,13 @@ const Footer = () => {
                     <img className='w-30 h-20 mt-2 m-auto p-1 text-center sm:w-39 sm:h-28 ' src={Logo2} alt="Logo Laboratorio" />
                 </div>
 
-                <div className='Links text-center sm:justify-evenly sm:w-89'>
+                <div className='Links text-center sm:text-3xl sm:text-center mt-2 sm:h-24 sm:w-130 sm:justify-evenly'>
                     <NavbarLinks/>
                 </div>
 
                 <br />
 
-                <div className='Info text-white '>            
+                <div className='Info text-white sm:flex sm:flex-col sm:my-2 sm:justify-start sm:text-left '>            
                     <p><i class="fa-brands fa-whatsapp"></i> WhatsApp:</p>
                     <p>3xxxxxxxx</p>
                     <br />

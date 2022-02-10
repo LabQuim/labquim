@@ -5,6 +5,10 @@ import Agronomy from 'Media/Agronomy.jpg';
 import Footer from 'Components/Footer';
 import Logo from 'Media/logom.png'
 import Infocard from 'Components/Infocard';
+import Transporte from 'Media/transporte.png';
+import Time from 'Media/time.png';
+import Book from 'Media/book.png';
+import Chemic from 'Media/chemic.png';
 
 const home = () => {
   return (
@@ -28,16 +32,20 @@ const home = () => {
             <div className='cuadros flex flex-col sm:flex sm:flex-row sm:justify-around  sm:space-x-6 space-y-3 sm:items-center '>
 
                                 <Infocard
+                                    image={Transporte}
                                     text= 'Evita desplazamientos innecesarios' />
                                 
                                 <Infocard
+                                    image={Time}
                                     text= 'Tiempos de análisis reducidos' />
 
                                 <Infocard
-                                    text= 'Se entrega manual de instrucciones para la toma de muestras y posterior análisis' />
+                                    image={Book}
+                                    text= 'Manual de instrucciones para la toma de muestras y posterior análisis' />
 
                                 <Infocard
-                                    text= 'Incluye: kit con instrumentos y material necesario para el análisis e interpretación de resultados' />
+                                    image={Chemic}
+                                    text= 'Kit con instrumentos y material necesario para el análisis e interpretación de resultados' />
 
                     </div>
                     <Footer/>
