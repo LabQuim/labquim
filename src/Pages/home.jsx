@@ -4,6 +4,7 @@ import Banner from 'Components/Banner';
 import Agronomy from 'Media/Agronomy.jpg';
 import Footer from 'Components/Footer';
 import Logo from 'Media/logom.png'
+import Infocard from 'Components/Infocard';
 
 const home = () => {
   return (
@@ -22,60 +23,21 @@ const home = () => {
                 '
                 image={Agronomy}
             />
-            <h3 className="text-center font-bold text-4xl mt-6">Beneficios: </h3>
-            <div className='flex flex-col sm:flex-row justify-center text-center space-y-2 sm:space-x-12 sm:mt-8 sm:w-full h-full '>
+            <h3 className="text-center font-bold text-4xl my-4">Beneficios: </h3>
 
-                                <div className='bg-gray-200 rounded-xl h-40 w-fit hover:scale-110 transition-transform' >
-                                    <div className='flex flex-col '>
-                                        <div>
-                                            {/* <img src={} alt='imagen de movil' className='p-7'></img> */}
-                                            <div className='text-center mb-6 font-bold text-2xl p-2 w-fit h-fit'>
-                                                <br />
-                                                Evita desplazamientos innecesarios
-                                                <br />
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+            <div className='cuadros flex flex-col sm:flex sm:flex-row sm:justify-around  sm:space-x-6 space-y-3 sm:items-center '>
 
-                                <div className='bg-gray-200 rounded-xl h-40 w-fit hover:scale-110 transition-transform' >
-                                    <div className='flex flex-col '>
-                                        <div>
-                                            {/* <img src={} alt='imagen de movil' className='p-7'></img> */}
-                                            <div className='text-center mb-6 font-bold text-2xl p-2'>
-                                                <br />
-                                                Tiempos de análisis reduicidos
-                                                <br />
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                                <Infocard
+                                    text= 'Evita desplazamientos innecesarios' />
+                                
+                                <Infocard
+                                    text= 'Tiempos de análisis reducidos' />
 
-                                <div className='bg-gray-200 rounded-xl h-40 w-fit hover:scale-110 transition-transform' >
-                                    <div className='flex flex-col '>
-                                        <div>
-                                            {/* <img src={} alt='imagen de movil' className='p-7'></img> */}
-                                            <div className='text-center mb-6 font-bold text-2xl p-2'>
-                                                <br />
-                                                Se entrega manual de instrucciones para la toma de muestras y posterior análisis
-                                                <br />
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                                <Infocard
+                                    text= 'Se entrega manual de instrucciones para la toma de muestras y posterior análisis' />
 
-                                <div className='bg-gray-200 rounded-xl  h-40 w-fit hover:scale-110 transition-transform' >
-                                    <div className='flex flex-col '>
-                                        <div>
-                                            {/* <img src={} alt='imagen de movil' className='p-7'></img> */}
-                                            <div className='text-center mb-6 font-bold text-2xl p-2'>
-                                                <br />
-                                                    Incluye: kit con instrumentos y material necesario para el análisis e interpretación de resultados
-                                                <br />
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                                <Infocard
+                                    text= 'Incluye: kit con instrumentos y material necesario para el análisis e interpretación de resultados' />
 
                     </div>
                     <Footer/>
