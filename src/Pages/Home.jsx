@@ -21,9 +21,9 @@ const Home = () => {
             </div>
       <Navbar/>
       <Banner
-                title='Análisis preciso, confiable y rápido'
+                title='Análisis precisos, confiables y rápidos'
                 text='Debido a las condiciones actuales de la pandemia, ofrecemos el servicio de test rapidos 
-                para que usted mismo pueda realizar desde su empresa el test de analisis de suelos
+                para que usted mismo pueda realizar desde su finca el test de analisis de suelos
                 '
                 image={Agronomy}
             />
@@ -41,11 +41,11 @@ const Home = () => {
 
                                 <Infocard
                                     image={Book}
-                                    text= 'Manual de instrucciones para la toma de muestras y posterior análisis' />
+                                    text= 'A disposición encuentra el manual de instrucciones para la toma de muestras y posterior análisis' />
 
                                 <Infocard
                                     image={Chemic}
-                                    text= 'Instrumentos y material necesario para el análisis e interpretación de resultados' />
+                                    text= 'Cuenta con instrumentos necesarios para el análisis e interpretación de resultados' />
 
                     </div>
                     <Footer/>
