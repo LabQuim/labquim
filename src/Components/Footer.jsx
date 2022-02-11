@@ -88,7 +88,7 @@ const NavbarRoute = ({to, title})=>{
                     : ' navbar-route text-white hover:text-orange-400 '
                 }
             >
-            <span className='sm:text-2xl text-sm text-center font-["Arial"] '>{title}</span>
+            <span className='text-lg sm:text-2xl text-center font-["Arial"] '>{title}</span>
             </NavLink>
         </li>
     )

@@ -15,7 +15,7 @@ const Home = () => {
   <div className='flex flex-col w-full overflow-x-hidden overflow-y-hidden p-3 rounded-lg'>
         <Logo/>
             <div className='w-2/4 h-0.5 p-1 m-auto text-center'>
-                <hr className='justify-center w-full p-1 bg-gradient-to-r from-green-700 to-orange-600'/>
+                <hr className='justify-center w-full h-auto p-1 bg-gradient-to-r from-green-700 to-orange-600'/>
             </div>
       <Navbar/>
       <Banner
