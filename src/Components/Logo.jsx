@@ -1,5 +1,5 @@
 import React from 'react'
-import LogoP from 'Media/logom.png';
+import LogoP from 'Media/logo4.png';
 import { Link } from 'react-router-dom'
 
 
