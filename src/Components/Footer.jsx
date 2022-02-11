@@ -47,7 +47,7 @@ const Footer = () => {
             
             </div>
             <div className=' bg-gray-600 w-full text-center h-full sm:flex sm:flex-row sm:justify-center space-x-5 sm:space-x-10 text-4xl p-2 text-white'>
-            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-facebook"></i> {/* poner etiqueta a de link a Facebook, lo mismo a los demas */}
             <i class="fa-brands fa-instagram"></i>
             <i class="fa-brands fa-linkedin-in"></i>
             </div>

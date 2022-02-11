@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-// import ContactButton from 'Components/ContactButton'
+
 
 const Navbar = () => {
   return (
@@ -16,6 +16,7 @@ const NavbarLinks = () => {
       <NavbarRoute to="/Agronomia" title="Agronomía" />
       <NavbarRoute to="/Nosotros" title="Nosotros" />
       <NavbarRoute to="/Blog" title="Blog" />
+      <NavbarRoute to="/Cotizacion" title="Solicita una Cotización"/>
     </ul>
   );
 };
