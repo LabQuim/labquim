@@ -8,7 +8,8 @@ import Logo2 from 'Media/logomblanco.png';
 
 const Footer = () => {
     return (
-        <div className=' bg-gray-600 w-full text-center h-auto rounded-md mt-5 sm:flex sm:flex-row sm:justify-evenly'>
+        <div className='sm:flex sm:flex-col rounded-md'>
+            <div className=' bg-gray-600 w-full text-center h-auto mt-5 sm:flex sm:flex-row sm:justify-evenly'>
             
 
                 <div className='Logo w-auto h-fit justify-center  sm:justify-start'> 
@@ -22,18 +23,35 @@ const Footer = () => {
                 <br />
 
                 <div className='Info text-white sm:flex sm:flex-col sm:my-2 sm:justify-start sm:text-left '>            
-                    <p><i class="fa-brands fa-whatsapp"></i> WhatsApp:</p>
-                    <p>3xxxxxxxx</p>
+                    <p className='font-semibold'><i class="fa-brands fa-whatsapp"></i> WhatsApp:</p>
+                    <p>(+57) 3xxxxxxxx</p>
                     <br />
                     
-                    <p><i class="fa-solid fa-square-envelope"></i> Email: </p>
+                    <p  className='font-semibold'><i class="fa-solid fa-square-envelope"></i> Email: </p>
                     <p>xxxx@gmail.com</p>
+                    <br /> 
+                </div>
+                <div className='Info text-white sm:flex sm:flex-col sm:my-2 sm:justify-start sm:text-left '>            
+                    <p  className='font-semibold'><i class="fa-solid fa-phone"></i> Teléfono:</p>
+                    <p>(601) - xxxxxxx</p>
+                    <br />
+                    
+                    <p  className='font-semibold'><i class="fa-solid fa-map-location-dot"></i> Dirección: </p>
+                    <p>Carrera xx # xx - x</p>
+                    <p> Bogotá, Colombia</p>
                     <br /> 
                 </div>
                 
             
             
+            </div>
+            <div className=' bg-gray-600 w-full text-center h-full sm:flex sm:flex-row sm:justify-center space-x-5 sm:space-x-10 text-4xl p-2 text-white'>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+            </div>
         </div>
+        
                 
 
                 
