@@ -2,6 +2,7 @@ import Logo from 'Components/Logo'
 import React from 'react'
 import Correo from 'Media/correo1.png'
 import Footer from 'Components/Footer'
+import Formulario from 'Components/Formulario'
 
 const Contactanos = () => {
   return (
@@ -23,15 +24,9 @@ const Contactanos = () => {
             </div>
         </div>
       </div>
+      <Formulario/>
 
-        <div data-tf-widget="Lh3e0nBk" data-tf-hide-headers data-tf-iframe-props="title=Registration Form" data-tf-medium="snippet"  
-        style={{width:"100%", height:"600px"}}>
-        </div>
-
-
-
-
-        <Footer/>
+      <Footer/>
     </div>
   )
 }
