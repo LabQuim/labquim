@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from 'Pages/Home.jsx';
 import Nosotros from 'Pages/Nosotros.jsx';
 import Agronomia from 'Pages/Agronomia';
-// import NoPage from 'Pages/NoPage';
+import NoPage from 'Pages/NoPage';
 import Blog from 'Pages/Blog';
 import Contactanos from 'Pages/Contactanos';
 
@@ -17,8 +17,8 @@ function App() {
         <Route path="/Nosotros" element={<Nosotros/>}/>
         <Route path="/Blog" element={<Blog/>}/>
         <Route path="/Contactanos" element={<Contactanos/>}/>
+        <Route path="/*" element={<NoPage />} />
         
-        {/* <Route path="/*" element={<NoPage />} /> */}
         
       </Routes>
       
