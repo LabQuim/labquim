@@ -16,7 +16,7 @@ const NavbarLinks = () => {
       <NavbarRoute to="/Agronomia" title="Agronomía" />
       <NavbarRoute to="/Nosotros" title="Nosotros" />
       <NavbarRoute to="/Blog" title="Blog" />
-      <NavbarRoute to="/Cotizacion" title="Solicita una Cotización"/>
+      
     </ul>
   );
 };

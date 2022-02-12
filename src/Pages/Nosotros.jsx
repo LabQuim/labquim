@@ -10,8 +10,8 @@ const Nosotros = () => {
   return (
     <div className='flex flex-col w-full overflow-x-hidden overflow-y-hidden p-3 rounded-lg'>
       <Logo/>
-            <div className='w-2/4 h-0.5 p-1 m-auto text-center'>
-                <hr className='justify-center w-full p-1 bg-gradient-to-r from-green-700 to-orange-600'/>
+      <div className='w-2/4 h-0.5 p-1 m-auto text-center'>
+                <hr className='justify-center w-full h-1 bg-gradient-to-r from-green-500 to-orange-300'/>
             </div>
       <Navbar/>
       <Banner
@@ -21,6 +21,7 @@ const Nosotros = () => {
                 de la tierra para sus cultivos.
                 '
                 image={Agronomy}
+                
             />
 
             <div className='Cuadros flex flex-col sm:my-6 p-1 sm:flex sm:flex-row bg-gray-100 sm:justify-evenly sm:text-center '>
