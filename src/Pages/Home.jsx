@@ -1,7 +1,6 @@
 import React from 'react';
 import Navbar from 'Components/Navbar'
 import Banner from 'Components/Banner';
-import Agronomy from 'Media/Agronomy.jpg';
 import Footer from 'Components/Footer';
 import Infocard from 'Components/Infocard';
 import Transporte from 'Media/transporte.png';
@@ -9,6 +8,7 @@ import Time from 'Media/time.png';
 import Book from 'Media/book.png';
 import Chemic from 'Media/chemic.png';
 import Logo from 'Components/Logo';
+
 
 const Home = () => {
   return (
@@ -23,7 +23,7 @@ const Home = () => {
                 text='Debido a las condiciones actuales de la pandemia, ofrecemos el servicio de test rapidos 
                 para que usted mismo pueda realizar desde su finca de análisis de suelos
                 '
-                image={Agronomy}
+                
             />
             <h3 className="text-center font-bold text-4xl my-4">Beneficios: </h3>
 

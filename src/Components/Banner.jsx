@@ -1,5 +1,6 @@
 import React from 'react'
 import ContactButton from 'Components/ContactButton';
+import Slides from 'Components/Slides';
 
 
 
@@ -14,10 +15,10 @@ const Banner = ( { title, text, image } ) => {
                             {text}
                         </h3>
                     </div>
-                    <div className='w-full h-full sm:w-200 sm:h-200 m-auto  text-center justify-center p-4 sm:p-2'>
-                        <img className='w-full h-full sm:w-4/4 sm:h-4/4 rounded-lg text-center sm:m-auto drop-shadow-xl ' src={image} alt="imagen en el banner" /> 
-                    </div>
                 </div>
+                    <div className='w-full h-full sm:w-200 sm:h-200 m-auto  text-center justify-center p-4 sm:p-2'>
+                        <Slides/> 
+                    </div>
                         
                     
 
