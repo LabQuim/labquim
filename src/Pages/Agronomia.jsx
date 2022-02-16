@@ -22,9 +22,9 @@ const Agronomia = () => {
                 es objetivo común trasladar también algo de servicio que complemente la función del producto.'
                 image={Agro}
             />
-        <div className='Cuadros flex flex-col sm:my-6 p-1 sm:flex sm:flex-row bg-gray-100 sm:justify-evenly sm:text-center '>
+        <div className='Cuadros flex flex-col sm:pt-6 p-1 sm:flex sm:flex-row bg-gray-100 sm:justify-evenly sm:text-center '>
 
-<div className='cuadro1 mt-3 sm:mx-6 sm:text-center sm:align-middle sm:space-x-4 sm:w-full '>
+<div className='cuadro1  sm:mx-6 sm:text-center sm:align-middle sm:space-x-4 sm:w-full '>
      <h1 className='text-2xl sm:text-3xl font-bold text-green-900'>Análisis agronómicos</h1>
      <div className='texto sm:mt-4'>
          <p className='text-gray-700 text-justify sm:text-lg'>
