@@ -26,9 +26,11 @@ const Home = () => {
               Análisis precisos, confiables y rápidos
             </h1>
             <h3 className="text-lg sm:text-4xl p-5 px-3">
-              Debido a las condiciones actuales de la pandemia, ofrecemos el
-              servicio de test rapidos para que usted mismo pueda realizar desde
-              su finca de análisis de suelos
+              Los recientes cambios climáticos han ocasionado variaciones en la compocisión
+              y capacidad de la tierra para producir cultivos, afectando de esta manera la 
+              calidad y eficiencia de las cosechas en el sector agrícola, esto sumado a las
+              dificultades presentadas por la pandemia del COVID-19 han disminuido significativamente 
+              los beneficios de la tierra en el campo.
             </h3>
           </div>
         </div>
