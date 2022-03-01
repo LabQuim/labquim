@@ -34,11 +34,11 @@ const Footer = () => {
                 </div>
                 <div className='Info text-white sm:flex sm:flex-col sm:my-2 sm:justify-start sm:text-left '>            
                     <p  className='font-semibold'><i class="fa-solid fa-phone"></i> Teléfono:</p>
-                    <p>(601) - xxxxxxx</p>
+                    <p>(601) - 6253938</p>
                     <br />
                     
                     <p  className='font-semibold'><i class="fa-solid fa-map-location-dot"></i> Dirección: </p>
-                    <p>Carrera xx # xx - x</p>
+                    <p>Carrera 25 # 39 - 57</p>
                     <p> Bogotá, Colombia</p>
                     <br /> 
                 </div>
