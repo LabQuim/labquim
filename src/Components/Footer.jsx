@@ -29,7 +29,7 @@ const Footer = () => {
                     <br />
                     
                     <p  className='font-semibold'><i class="fa-solid fa-square-envelope"></i> Email: </p>
-                    <p>carlosandressuarez16@gmail.com</p> 
+                    <p>suelosencampo@gmail.com</p> 
                     <br /> 
                 </div>
                 <div className='Info text-white sm:flex sm:flex-col sm:my-2 sm:justify-start sm:text-left '>            
