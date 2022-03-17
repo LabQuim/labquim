@@ -16,10 +16,9 @@ const Nosotros = () => {
       <Navbar />
       <Banner
         title="¿Quienes somos?"
-        text="(Nuestro Laboratorio) orienta y ofrece una solución rápida a clientes del sector Agrónomo
-                para ayudar a producir de manera más eficiente, más sostenible y con el maximo provecho en recurso
-                de la tierra para sus cultivos.
-                "
+        text="Orienta y ofrece una solución rápida a clientes del sector agrícola
+                para ayudar a producir de manera más eficiente, más sostenible y con el maximo provecho del recurso
+                suelo para optimización de cultivos."
         image={Agronomy}
       />
 
@@ -73,15 +72,15 @@ const Nosotros = () => {
               aplicación es la más recomendable.
             </p>
             <p className="text-gray-700 text-justify justify-center sm:text-lg">
-              <b>PH:</b> Nos indicará la reacción que tendrá el suelo, si ácida
+              <b>pH:</b> Nos indicará la reacción que tendrá el suelo, si ácida
               o alcalina. Este carácter dará idea de la disponibilidad que
               tendrán en la solución de suelo elementos como el fósforo y los
               micronutrientes, muy sensibles a variaciones en este factor.
             </p>
             <p className="text-gray-700 text-justify justify-center sm:text-lg">
               <b>Nutrientes a disposición de la planta:</b> Ya sean
-              macronutrientes (nitrógeno, fósforo, potasio, calcio y magnesio) o
-              micronutrientes (hierro, boro, manganeso, cinc, molibdeno y cobre)
+              macronutrientes (nitrógeno, fósforo y potasio) o
+              micronutrientes (calcio, magnesio, azufre, hierro, boro, manganeso, zinc, molibdeno y cobre)
               debemos saber en qué proporciones podemos encontrarlos en nuestro
               suelo, siempre hablando de su forma disponible ya que de poco nos
               servirá conocer la cantidad total que habrá de de uno de ellos si

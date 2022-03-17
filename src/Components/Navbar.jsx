@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div className="navbar bg-gradient-to-b from-green-700 to-green-300 rounded-lg  sm:text-3xl sm:text-center mt-2 sm:h-24">
+    <div className="navbar bg-gradient-to-b from-green-500 to-green-300 rounded-lg  sm:text-2xl sm:text-center mt-2 sm:h-20">
       <NavbarLinks />
     </div>
   );
