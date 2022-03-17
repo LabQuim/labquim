@@ -29,7 +29,7 @@ const Home = () => {
               Los recientes cambios climáticos han ocasionado variaciones en la composición
               y capacidad del suelo para producir excelentes cosechas, afectando de esta manera la 
               calidad y eficiencia de las mismas en el sector agrícola, esto sumado a las
-              dificultades presentadas por la pandemia del COVID-19 han disminuido significativamente 
+              dificultades presentadas por la pandemia del COVID-19, que han disminuido significativamente 
               los beneficios del suelo agrícola. Que pueden ser mejorados con un servicio confiable, preciso y rápido
             </h3>
           </div>
