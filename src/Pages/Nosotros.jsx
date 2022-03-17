@@ -81,19 +81,19 @@ const Nosotros = () => {
               <b>Nutrientes a disposición de la planta:</b> Ya sean
               macronutrientes (nitrógeno, fósforo y potasio) elementos secundarios (calcio, magnesio, azufre)
               micronutrientes (hierro, boro, manganeso, zinc, molibdeno y cobre)
-              debemos saber en qué proporciones podemos encontrarlos en nuestro
+              de los cuales debemos saber en qué proporciones podemos encontrarlos en nuestro
               suelo, siempre hablando de su forma disponible ya que de poco nos
-              servirá conocer la cantidad total que habrá de de uno de ellos si
+              servirá conocer la cantidad total que habrá de uno de ellos si
               luego sólo un mínimo porcentaje se encuentra soluble para entrar
               por las raíces.
             </p>
           </div>
         </div>
       </div>
-
       <Footer />
     </div>
   );
 };
+
 
 export default Nosotros
