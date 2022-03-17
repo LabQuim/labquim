@@ -26,11 +26,11 @@ const Home = () => {
               Análisis precisos, confiables y rápidos
             </h1>
             <h3 className="text-lg sm:text-4xl p-5 px-3">
-              Los recientes cambios climáticos han ocasionado variaciones en la compocisión
-              y capacidad de la tierra para producir cultivos, afectando de esta manera la 
-              calidad y eficiencia de las cosechas en el sector agrícola, esto sumado a las
+              Los recientes cambios climáticos han ocasionado variaciones en la composición
+              y capacidad del suelo para producir excelentes cosechas, afectando de esta manera la 
+              calidad y eficiencia de las mismas en el sector agrícola, esto sumado a las
               dificultades presentadas por la pandemia del COVID-19 han disminuido significativamente 
-              los beneficios de la tierra en el campo.
+              los beneficios del suelo agrícola.
             </h3>
           </div>
         </div>

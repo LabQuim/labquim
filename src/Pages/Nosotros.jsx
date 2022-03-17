@@ -17,8 +17,8 @@ const Nosotros = () => {
       <Banner
         title="¿Quienes somos?"
         text="Orienta y ofrece una solución rápida a clientes del sector agrícola
-                para ayudar a producir de manera más eficiente, más sostenible y con el maximo provecho del recurso
-                suelo para optimización de cultivos."
+                para ayudar a producir de manera más eficiente, más sostenible y con el máximo provecho del recurso
+                suelo, para la optimización de cultivos."
         image={Agronomy}
       />
 
