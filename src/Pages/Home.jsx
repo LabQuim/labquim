@@ -30,7 +30,7 @@ const Home = () => {
               y capacidad del suelo para producir excelentes cosechas, afectando de esta manera la 
               calidad y eficiencia de las mismas en el sector agrícola, esto sumado a las
               dificultades presentadas por la pandemia del COVID-19, que han disminuido significativamente 
-              los beneficios del suelo agrícola, pero ser mejorados con servicios confiables, precisos y rápidos
+              los beneficios del suelo agrícola, pero pueden ser mejorados con servicios confiables, precisos y rápidos,
               para el contínuo desarrollo del sector agrícola.
             </h3>
           </div>
