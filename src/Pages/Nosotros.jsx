@@ -79,8 +79,8 @@ const Nosotros = () => {
             </p>
             <p className="text-gray-700 text-justify justify-center sm:text-lg">
               <b>Nutrientes a disposición de la planta:</b> Ya sean
-              macronutrientes (nitrógeno, fósforo y potasio) o
-              micronutrientes (calcio, magnesio, azufre, hierro, boro, manganeso, zinc, molibdeno y cobre)
+              macronutrientes (nitrógeno, fósforo y potasio) elementos secundarios (calcio, magnesio, azufre)
+              micronutrientes (hierro, boro, manganeso, zinc, molibdeno y cobre)
               debemos saber en qué proporciones podemos encontrarlos en nuestro
               suelo, siempre hablando de su forma disponible ya que de poco nos
               servirá conocer la cantidad total que habrá de de uno de ellos si
