@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom'
 import Logo2 from 'Media/logomblanco.png';
 
 
-const whatsapp = 'https://wa.me/573028473311/?text=Hola!,%20me%20interesa%20recibir%20informacion%20del%20analisis%20agronomico';
+const whatsapp = 'https://wa.me/573185211741/?text=Hola!,%20me%20interesa%20recibir%20informacion%20del%20analisis%20agronomico';
 
 
 const Footer = () => {
@@ -25,7 +25,7 @@ const Footer = () => {
 
                 <div className='Info text-white sm:flex sm:flex-col sm:my-2 sm:justify-start sm:text-left '>            
                     <p className='font-semibold'><i class="fa-brands fa-whatsapp"></i> WhatsApp:</p>
-                    <a href={whatsapp}><p>(+57) 302 847 3311</p></a>
+                    <a href={whatsapp}><p>(+57) 318 521 1741</p></a>
                     <br />
                     
                     <p  className='font-semibold'><i class="fa-solid fa-square-envelope"></i> Email: </p>
